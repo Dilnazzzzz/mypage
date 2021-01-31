@@ -1,0 +1,76 @@
+body {
+    background-color: #E5F2E5;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Baskervville', serif;
+    font-size: 50px;
+}
+
+ p {
+     margin-left: 20px;
+     font-family: 'Indie Flower', cursive;
+     font-size: 20px;
+ }
+ img {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+ }
+ ul {
+     overflow: hidden;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+ }
+ h2 {
+     text-align: center;
+     font-family: 'Indie Flower', cursive;
+ }
+
+ .photos {
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+ }
+
+.container-fluid {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+    background-color: #e5f2f1;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px;
+    border-radius: 50%;
+    right: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-github {
+      background: white;
+      color:black
+  }
+  .fa-whatsapp {
+      background: green;
+      color: white;
+  }
